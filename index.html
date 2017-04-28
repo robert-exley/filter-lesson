@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>Filter Lesson</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Your styles should be called here -->
+    <link href="main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <h1>Grocery Item Filter</h1>
+    <!-- YOUR CONTENT GOES HERE -->
+    <button class="filter" data-filter="refrigerated">Refrigerated</button>
+    <button class="filter" data-filter="breakfast">Breakfast</button>
+    <button class="filter" data-filter="sugar">Sugar</button>
+    <button class="filter" data-filter="household">Household</button>
+    <button class="filter" data-filter="all">All</button>
+
+    <div id="milk" class="dairy refrigerated beverage breakfast active item"><img src="images/milk.png">
+      <p class="photos"></p>
+    </div>
+    <div id="cheese" class="dairy refrigerated active item"><img src="images/cheese.png">
+      <p class="photos"></p>
+    </div>
+    <div id="cereal" class="breakfast sugar dry active item"><img src="images/cheerios.png">
+      <p class="photos"></p>
+    </div>
+    <div id="cookie" class="sugar dry active item"><img src="images/cookie.png">
+      <p class="photos"></p>
+    </div>
+    <div id="new-york-strip" class="meat refrigerated dinner active item"><img src="images/steak.png">
+      <p class="photos"></p>
+    </div>
+    <div id="chicken-breast" class="meat refrigerated dinner active item"><img src="images/chicken.png">
+      <p class="photos"></p>
+    </div>
+    <div id="apples" class="fruit produce organic fresh sugar active item"><img src="images/apple.png">
+      <p class="photos"></p>
+    </div>
+    <div id="oranges" class="fruit produce organic fresh sugar active item"><img src="images/orange.png">
+      <p class="photos"></p>
+    </div>
+    <div id="paper-towel" class="inedible laundry cleaning household active item"><img src="images/toilet.png">
+      <p class="photos"></p>
+    </div>
+    <div id="detergent" class="inedible laundry cleaning household active item"><img src="images/tide.png">
+      <p class="photos"></p>
+    </div>
+    </div>
+    <div class="reset">
+      <button class="filter" data-filter="reset">Reset</button>
+
+
+
+
+      <!-- ihjkhjhghg -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+      <!-- Your javascript should be called here -->
+      <script src="main.js"></script>
+  </body>
+
+</html>
